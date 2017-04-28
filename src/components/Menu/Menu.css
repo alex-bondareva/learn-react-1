@@ -1,0 +1,28 @@
+.menu {
+    background-color: #9e9e9e;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu__list {
+    list-style:none;
+}
+.menu__link {
+    display: inline-block;
+
+    cursor:pointer;
+    background-color:#eee;
+    transition:0.3s;
+}
+.menu__link a {
+    text-decoration: none;
+    color:#7B8585;
+    display: block;
+    padding: 10px 50px;
+}
+.menu__link:hover{
+    background-color:#ffeb3b;
+}
+.menu__link.focused{
+    color:#fff;
+    background-color:#ffc107;
+}

@@ -1,0 +1,21 @@
+.comments {
+    width: 100%;
+    padding: 50px;
+    background-color: #8BC34A;
+    margin-top: 30px;
+}
+.comments__item {
+    background-color: #eeeeee;
+    padding: 10px;
+    margin-bottom: 25px;
+    box-shadow: 4px 3px 2px #1e5a21;
+}
+.comments__item:last-child{
+    margin-bottom: 0;
+}
+.comments__date {
+    font-weight: bold;
+}
+.comments__text {
+    margin: 10px 0 5px;
+}
